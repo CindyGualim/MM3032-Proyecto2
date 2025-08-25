@@ -21,7 +21,7 @@ Ejemplos de uso (sin instalar nada):
     python bruteforce.py --expr '[["p","q"],["~p","r"]]'
 
     # 2) Pasando la CNF en un archivo JSON (lista de listas de strings):
-    python bruteforce.py --input ejemplos_cnf.json
+    python bruteforce.py --input entrada.json
 
     # 3) Leer desde stdin (pegar JSON y presionar Ctrl+D/Ctrl+Z):
     python bruteforce.py
