@@ -6,17 +6,10 @@
 
 ---
 
-##  Cómo lo cumple el código (`bruteforce.py`)
+## Cómo lo cumple el código (`bruteforce.py`)
 
 ### Entrada en forma clausal (CNF)
 El archivo `entrada.json` contiene:
 
 ```json
 [["p","q"],["~p","r"]]
-Eso corresponde a la fórmula:
-
-(𝑝∨𝑞)∧(¬𝑝∨𝑟)
-
-
-En el código, la función _load_cnf_from_json_like convierte esa lista en la estructura interna CNF (listas de conjuntos de literales).
-
